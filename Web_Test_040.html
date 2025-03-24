@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web_test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-size: 1.2rem;
+            font-family: Kanit;
+        }
+        .header{
+            background-color: rgb(78, 78, 78);
+            text-align: center;
+            padding: 20px;
+        }
+        .head_link{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .p{
+            font-size: 2rem;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .Enhance{
+            background-color: rgb(182, 182, 182);
+            text-align: center;
+            padding: 40px;
+            button{
+                background-color: blue;
+                font-size: 1rem;
+                color: white;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        }
+        button{
+                background-color: blue;
+                color: white;
+                font-size: 1rem;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        .h{
+            font-size: 2rem;
+        }
+        .About{
+            width: 80%;
+            margin: auto;
+            padding: 40px;
+        }
+        .res{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 30px;
+            img{
+                width: 100%;
+            }
+        }
+        .bg{
+            background-color: aliceblue;
+        }
+        .Feedback{
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            padding: 40px;
+            
+        }
+        .box{
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 2px;
+        }
+        .head1{
+            background-color: blue;
+            color: white;
+            padding: 5px;
+        }
+        .head2{
+            background-color: green;
+            color: white;
+            padding: 5px;
+        }
+        .head3{
+            background-color: red;
+            color: white;
+            padding: 5px;
+        }
+        .bottom{
+            width: 90%;
+            margin: 20px auto;
+            .read1{
+            background-color: white;
+            color: red;
+            padding: 5px;
+            border: 1px solid red;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .read2{
+            background-color: white;
+            color: orange;
+            padding: 5px;
+            border: 1px solid orange;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .read3{
+            background-color: white;
+            color: blue;
+            padding: 5px;
+            border: 1px solid blue;
+            border-radius: 5px;
+            width: 100%;
+        }
+        }
+        .top{
+            margin-bottom: 5px;
+        }
+        .Contact{
+            width: 70%;
+            margin: auto;
+            padding: 40px;
+        }
+        .f{
+            margin-bottom: 10px;
+            input, select,textarea{
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(202, 202, 202);
+            width: 100%;
+        }}
+        .foot{
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(78, 78, 78);
+            color: white;
+            font-size: 1.2rem;
+        }
+        @media screen and (max-width: 960px) {
+            .res{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <div class="header">
+                <div class="p"><p>Welcome to Thodsaporn Web Test</p></div>
+                <div class="head_link"><a href="">About</a><a href="">Feedback</a><a href="">Contact</a></div>
+            </div>
+        </header>
+        <div class="Enhance">
+            <div class="h">Enhance Your Web Development Skills</div>
+            <div class="text" style="margin-bottom: 10px;">Test your HTML, CSS, and responsive design knowladge here.</div>
+            <div class="btn"><button>Get Started</button></div>
+        </div>
+        <div class="About">
+            <div class="h">About This Test</div>
+            <div class="text">This test is designed to evaluate your ability to create and style web pages effectively.</div>
+        </div>
+        <div class="bg">
+            <div class="Feedback">
+                <div class="h" style="text-align: left;">Our Feedback</div>
+                <div class="res">
+                <div class="box"><div class="top"><img src="img/rabbit3.jpg" alt=""></div>
+                <div class="bottom">
+                    <div class="head1">ความรู้ก่อนเรียน</div>เข้าใจใน HTML บ้าง<br>
+                    <button class="read1">read me</button></div>
+                </div>
+                <div class="box"><div class="top"><img src="img/rabbit3.jpg" alt=""></div>
+                <div class="bottom">
+                    <div class="head2">ความรู้หลังเรียน</div>สามารถเขียนเว็บที่สวยและใช้งานได้<br>
+                    <button class="read2">read me</button></div>
+                </div>
+                <div class="box"><div class="top"><img src="img/rabbit3.jpg" alt=""></div>
+                <div class="bottom">
+                    <div class="head3">ความประทับใจในการเรียน</div>เรียนเข้าใจง่ายและละเอียดแต่บางทีตามไม่ทัน<br>
+                    <button class="read3">read me</button></div>
+                </div></div>
+            </div>
+        </div>
+        <div class="Contact">
+            <div class="h">Contact Us</div>
+            <div class="form">
+                <form action="" method="Post">
+                    <div class="f">
+                        <label for="">Name:</label><br>
+                        <input type="text"><br>
+                        <label for="">Email:</label><br>
+                        <input type="email"><br>
+                        <label for="">Message:</label><br>
+                        <textarea></textarea><br>
+                    </div>
+                    <button>Send Messsage</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="foot"><p>© 2025 Web Development Test. All Rights Reserved.</p><p>Thodsaporn Kukunthod</p></div>
+        </footer>
+</body>
+</html>
